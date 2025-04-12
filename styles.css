@@ -1,0 +1,108 @@
+#header{
+    background-color:  #3399ff;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: white; 
+    font-family: Arial, sans-serif;
+}
+#h1{
+    margin-bottom: 0px;
+}
+ul li, ol li{ margin-bottom:8px;
+}
+#p1{
+    margin-top:0px;
+}
+#main-content{
+    background-color: #f2f2f2;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/*This for the word "mantle"*/
+span{
+    color: #ff0000;
+    font-weight: bold;
+}
+
+#quiz-section{
+    background-color: lightblue;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+    font-family: Arial, sans-serif;
+
+}
+
+#h2-octopus{
+    color: black;
+    margin-top: 0px;
+}
+#octopus-image{
+    width: 75px;
+    height: 75px;
+    float: right;
+    margin: 20px;
+    border-top: 3px;
+    border-right: 3px;
+    border-bottom: 3px;
+    border-left: 3px;
+    border-style: solid;
+    border-color: purple;
+}
+
+#question1{
+    padding:6px;}
+
+#question2{
+    padding : 6px;
+}
+
+#h2-common{
+    color: black;
+    margin-bottom: 0px;
+}
+input[type="text"]{
+    margin-top: 4px; /* text boxes in octapus quiz*/
+    height: 3px;
+}
+#species-table{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+}
+
+
+.table-header{
+    background-color: grey;
+    color: white;
+    font-size: 9px;
+    font-weight: bold;
+    text-align: left;
+}
+.row1{
+    background-color: white;
+    padding: 22px;
+    font-size: 9px;
+    text-align: left;
+}
+.row2{
+    background-color: white;
+    padding: 22px;
+    font-size: 9px;
+    text-align: left;
+}
+
+#species-table th, #species-table td {
+    padding: 5px;
+    margin-top: 20px; /* separate the grey box from row2*/
+}
+#footer{
+    background-color: lightgrey;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;/* separate the grey box from row2*/
+    padding: 3px;
+    font-size: 13px; /* I had to play with this size to match your size */
+}
